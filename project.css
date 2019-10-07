@@ -1,0 +1,46 @@
+
+
+	body {
+		background-color :black ;
+		text-align: center;
+	}
+
+	h1 {
+        font-size: 50px;
+
+		color: greenyellow;
+		text-align: center;
+
+	}
+
+	h2 {
+		
+		font-size: 35px;
+		text-decoration: underline;
+		text-align: center ;
+		color:grey;
+	}
+
+	p {
+		text-align: left;
+        font-size: 25px;
+		text-align: inline;
+		color :lightcoral ;
+		padding: 2px;
+
+	}
+
+	div.sticky {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		background-color: red;
+		padding: 20px;
+		font-size: 16px;
+	}
+
+	footer{
+
+		color:yellow;
+		font-size: 18px;
+	}
