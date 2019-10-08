@@ -18,14 +18,14 @@
 		font-size: 35px;
 		text-decoration: underline;
 		text-align: center ;
-		color:grey;
+		color: sandybrown;
 	}
 
 	p {
 		text-align: left;
         font-size: 25px;
 		text-align: inline;
-		color :lightcoral ;
+		color :rgb(207, 163, 42) ;
 		padding: 2px;
 
 	}
@@ -43,4 +43,19 @@
 
 		color:yellow;
 		font-size: 18px;
+	}
+
+	ol li {
+
+		color: sandybrown;
+		text-align: left;
+		font-size: 20px;
+		
+	}
+
+	h3{
+		color: currentColor;
+        font-size: 30px;
+        background-color: peachpuff;
+        display: initial;
 	}
