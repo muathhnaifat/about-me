@@ -133,7 +133,8 @@ var counter = 0
 var name = prompt('Hello!! , What\'s your name ?');
 alert('welcome ' + name + ' nice to have you here ');
 
-var lab = [
+function hobbyGuessGame (){
+var hobbies = [
     [
         'Do i love coding?',
         'of course I do',
@@ -161,8 +162,8 @@ var lab = [
     ],
 
 ];
-for (var i = 0; i < lab.length; i++) {
-    var currentQuestion = lab[i]; // array of 3 items [prompt, positive, negative]
+for (var i = 0; i < hobbies.length; i++) {
+    var currentQuestion = hobbies[i]; // array of 3 items [prompt, positive, negative]
     var promptIndex = 0;
     var positiveIndex = 1;
     var negativeIndex = 2;
@@ -187,7 +188,11 @@ for (var i = 0; i < lab.length; i++) {
             alert(' Thats A Wrong Answer!');
     }
 }
+}
+hobbyGuessGame();
 
+
+function age(){
 for (let j = 0; j < 4; j++) {
     var number = prompt('can you guess in which year i was born');
     if (number == 1991) {
@@ -206,8 +211,10 @@ for (let j = 0; j < 4; j++) {
         alert('That is too low');
     }
 }
+}
+age();
 
-
+function dreamCar(){
 for (let h = 0; h < 6; h++) {
     var car = prompt('what\'s my dreams cars?');
     car = car.toLowerCase();
@@ -221,3 +228,5 @@ for (let h = 0; h < 6; h++) {
 }
 alert('thats my dreams cars : Bmw , audi , Mercedes , Land Rover');
 alert('Thank you for your time, You have got ' + counter + ' of 7');
+}
+dreamCar();
