@@ -18,7 +18,7 @@
 		font-size: 35px;
 		text-decoration: underline;
 		text-align: center ;
-		color: sandybrown;
+		color: #b31818;
 	}
 
 	p {
@@ -49,13 +49,14 @@
 
 		color: sandybrown;
 		text-align: left;
-		font-size: 20px;
+		font-size: 25px;
+		
 		
 	}
 
 	h3{
-		color: currentColor;
-        font-size: 30px;
-        background-color: peachpuff;
+		color: darkred;
+        font-size: 34px;
+        background-color: greenyellow;
         display: initial;
 	}
